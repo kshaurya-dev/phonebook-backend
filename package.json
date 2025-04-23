@@ -1,0 +1,17 @@
+{
+  "name": "phonebook_backend",
+  "version": "1.0.0",
+  "description": "backend app in express for phonebook app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "author": "shaurya_pratap_singh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
+}
