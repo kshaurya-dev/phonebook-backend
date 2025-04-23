@@ -1,4 +1,5 @@
 const express = require('express')
+app.use(express.static('dist'))
 const app = express()
 const morgan = require("morgan")
 app.use(express.json())
